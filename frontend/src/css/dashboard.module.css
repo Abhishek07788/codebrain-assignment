@@ -1,0 +1,29 @@
+.table {
+  width: 80%;
+  margin: auto;
+  border: 1px solid;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.table > thead {
+  background: teal;
+  color: #ffffff;
+}
+
+.addTr {
+  background: #ffff;
+  color: black;
+}
+.addButton {
+  background: green;
+  color: #ffffff;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.table > thead > tr > th {
+  padding: 2px 10px;
+}
